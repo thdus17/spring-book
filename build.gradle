@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'com.aws.book'
-version = '1.0.4-SNAPSHOT'
+version = '1.0.4-SNAPSHOT-'+new Date().format("yyyyMMDDHHmmss")
 
 repositories {
     mavenCentral()
