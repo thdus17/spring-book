@@ -13,6 +13,4 @@ function switch_proxy() {
 
     echo "> 엔진엑스 Reload"
     sudo service nginx reload
-
-    echo "> 무중단 배포 시도"
 }
