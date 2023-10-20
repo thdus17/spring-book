@@ -17,7 +17,7 @@ public class ProfileControllerTest {
 
     @Test
     void profile은_인증없이_호출된다() {
-        String expected = "real";
+        String expected = "oauth";
 
         ResponseEntity<String> response = restTemplate.getForEntity("/profile", String.class);
 
